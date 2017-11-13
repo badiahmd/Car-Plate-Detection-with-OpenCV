@@ -1,0 +1,16 @@
+﻿Build started 25/02/2016 12:06:49.
+     1>Project "c:\Users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\LPR2\LPR2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\ASUS A450LCI5 64\Downloads\opencv\build\include" /I"C:\Users\ASUS A450LCI5 64\Downloads\opencv\build\include\opencv" /I"C:\Users\ASUS A450LCI5 64\Downloads\opencv\build\include\opencv2" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LPR2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LPR2.cpp
+         LPR2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\Debug\LPR2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ASUS A450LCI5 64\Downloads\opencv\build\x64\vc12\lib" opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\Debug\LPR2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\Debug\LPR2.lib" /MACHINE:X86 Debug\LPR2.obj
+         Debug\stdafx.obj
+     1>LPR2.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) referenced in function "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+     1>LPR2.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) referenced in function "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>c:\users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\Debug\LPR2.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "c:\Users\asus a450lci5 64\documents\visual studio 2012\Projects\LPR2\LPR2\LPR2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.35
